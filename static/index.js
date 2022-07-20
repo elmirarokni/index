@@ -16,7 +16,7 @@ form.addEventListener('submit', async event => {
     scope: __uv$config.prefix
   }).then(() => {
     let url = input.value.trim();
-    if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
+    if (!isUrl(url)) url = 'https://www.youtube.com/results?search_query=' + url;
     if (url == "pornhub.com") url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
     if (url == "xvideo.com") url =
 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
